@@ -630,7 +630,7 @@ body {
 
 
  form {
-    background-color: #0000002f;
+    background-color: #00000041;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
@@ -988,8 +988,6 @@ form div.incorrect input{
   text-align: center;
   justify-content: center;
   cursor: pointer;
-
-  
 }
 
 
@@ -1000,17 +998,20 @@ form div.incorrect input{
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  
-  
-  
-  
-  
-
   background: linear-gradient(
     135deg,
     rgba(0,255,255,0.25),
     rgba(255,0,255,0.15)
   );
+.p{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+
+
 
   border: 1px solid rgba(255,255,255,0.2);
   backdrop-filter: blur(10px);
